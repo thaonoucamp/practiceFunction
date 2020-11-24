@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tim ngoi sao</title>
+</head>
+<body>
+<script>
+    let arr1 = ["Polaris","Aldebaran","Deneb","Vega","Altair","Dubhe"];
+    let arr2 = ["Ursa","Tarurus","Cygnus","Lyra","Aquila","Leo","Ursa"];
+    checkStar();
+    function checkStar () {
+        let a = prompt("enter the star");
+        for (let i = 0; i < arr1.length; i++) {
+            if(a==arr1[i]) {
+
+                alert(arr1[i]+ " thuoc chom sao "+ " Ursa");
+            } else {
+                alert("do dien! lam gi co ten ngoi sao nhu the");
+            }
+        }
+    }
+</script>
+</body>
+</html>
